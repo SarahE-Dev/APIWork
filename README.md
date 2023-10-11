@@ -14,7 +14,7 @@ Lets start by creating a `<button>` and an empty `<img>` in the HTML.
 Make the button look like [a nice Bootstrap button](https://getbootstrap.com/docs/5.0/components/buttons/). 
 
 Additionally, put both your button and image in a Bootstrap "card"
-component. Read the Bootstarp documentation to figure out how to do this: https://getbootstrap.com/docs/5.0/components/card/
+component. Read the Bootstrap documentation to figure out how to do this: https://getbootstrap.com/docs/5.0/components/card/
 
 #### 1B) Handle Button Click
 
@@ -32,7 +32,7 @@ an object formatted like:
 We can see that the message field contains the random dog image! Grab that URL, then set
 your image's source to be that URL.
 
-Everytime you click the button, you should see a new random dog image appear!
+Every time you click the button, you should see a new random dog image appear!
 
 ## Part 2 - Weather App
 
@@ -50,9 +50,9 @@ HTML. Make these look nice with Bootstrap (https://getbootstrap.com/docs/5.0/for
 Now, when the submit button is pressed. Take the text entered into the input box
 and make an API request to check the weather in that city.
 
-This can be done using this weather API: https://github.com/robertoduessmann/weather-api
+This can be done using this weather API: https://docs.tomorrow.io/reference/welcome
 
-To check the weather in a city, make a GET request to `https://goweather.herokuapp.com/weather/{city}`,
+To check the weather in a city, make a GET request to `https://api.tomorrow.io/v4/weather/forecast?location=${Location (%20 is space)}&apikey=${Your API KEY}`,
 substituting `{city}` with the name of the city you want to check the weather in.
 
 You'll receive a response object that looks like:
