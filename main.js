@@ -72,7 +72,7 @@ document.querySelector('#button-addon2').addEventListener('click', ()=>{
     })
 })
 
-let OPENAI_API_KEY = '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';
+
 
 document.querySelector('#button-addon3').addEventListener('click', ()=>{
     fetch('https://uselessfacts.jsph.pl/api/v2/facts/random')
